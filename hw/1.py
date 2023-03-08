@@ -8,7 +8,7 @@ def progre(x, c):
         yield b
 
 
-tuc = progre(7,8)
+tuc = progre(7, 8)
 next(tuc)
 next(tuc)
 next(tuc)
