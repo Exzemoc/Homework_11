@@ -9,7 +9,7 @@ email5 = 'petyh_lalalaka@mail-.ru'
 
 
 def check_email(x):
-    pattern = r'(^[^.]+[a-zA-Z0-9.!#%&\'*=?^_{|}~]+[^.]+@[^-]+[a-zA-Z0-9-][^-]+\.[a-zA-Z0-9-]+[^-]+$)'
+    pattern = r'(^[a-zA-Z0-9!#%&\'*=?^_{|}~]+[a-zA-Z0-9.!#%&\'*=?^_{|}~]+[^.]+@[^-]+[a-zA-Z0-9-][^-]+\.[a-zA-Z0-9-]+[^-]+$)'
     if re.match(pattern, x) is not None:
         print(f'{x} Email confirmed')
     else:
